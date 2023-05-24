@@ -26,3 +26,4 @@ Route::delete('/admin/postingan/{id}', [AdminController::class, 'delete_post'])-
 Route::get('/admin/arsip', [AdminController::class, 'show_arsip']);
 Route::get('/admin/create_post', [AdminController::class, 'create_post']);
 Route::post('/admin/store_post', [AdminController::class, 'store_post']);
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
